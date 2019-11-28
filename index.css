@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    width: 100%;
+    height: 60px;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    width: 60px;
+    height: 52px;
+}
+
+
+/*
+*Style for menu
+*/
+
+.menu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.menu_list {
+    display: flex;
+}
+
+.menu-item {
+    list-style: none;
+    margin-right: 12px;
+}
+
+.menu-item>a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item>a:hover {
+    color: black;
+}
